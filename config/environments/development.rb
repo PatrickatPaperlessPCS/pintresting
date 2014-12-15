@@ -34,7 +34,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
-
+Paperclip.options[:command_path] = "c/Program Files/ImageMagick-6.9.0-Q16/convert"
+Paperclip.options[:command_path] = 'C:\Program Files (x86)\GnuWin32\bin'
   #required for heroku
   config.action_mailer.default_url_options = { :host => 'localhost:3000'}
 end
