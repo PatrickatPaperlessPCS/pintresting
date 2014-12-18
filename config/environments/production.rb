@@ -89,3 +89,5 @@ Rails.application.configure do
     }
   }
 end
+  config.gem "rmagick",
+:lib => "RMagick" 
