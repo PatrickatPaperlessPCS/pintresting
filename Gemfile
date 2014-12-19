@@ -18,6 +18,9 @@ gem "paperclip"
 gem 'aws-sdk'
 gem 'rmagick'
 gem 'masonry-rails'
+gem 'will_paginate', '~> 3.0.6'
+gem 'will_paginate-bootstrap'
+
 group :development, :test do 
  gem 'sqlite3'
 end
